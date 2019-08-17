@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from adjust_app.models import AppStat
+from .models import AppStat
 
 
 class AppStatSerializer(serializers.ModelSerializer):

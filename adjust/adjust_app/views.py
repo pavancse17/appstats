@@ -1,8 +1,8 @@
 from rest_framework.generics import ListAPIView
 
-from adjust_app.serializers import AppStatSerializer
-from adjust_app.models import AppStat
-from adjust_app.filters import AppStatFilter
+from .serializers import AppStatSerializer
+from .models import AppStat
+from .filters import AppStatFilter
 
 
 class AppStatsListView(ListAPIView):

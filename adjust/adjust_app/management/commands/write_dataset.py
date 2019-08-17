@@ -2,7 +2,7 @@ import csv
 
 from django.core.management import BaseCommand, CommandError
 
-from adjust_app.models import AppStat
+from ...models import AppStat
 
 
 class Command(BaseCommand):

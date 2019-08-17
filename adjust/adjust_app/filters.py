@@ -3,7 +3,7 @@ from django.db import models
 import django_filters
 from django_filters import filters
 
-from adjust_app.models import AppStat
+from .models import AppStat
 
 GROUP_BY_CHOICES = (
     ('date', 'date'),
